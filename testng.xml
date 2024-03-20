@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="true" thread-count="2">
 
 	<test thread-count="3" name="ChromeTest">
 		<parameter name="browser" value="Chrome"></parameter>
@@ -18,6 +18,24 @@
 			<class name="test.SearchAndAddItemToCartTest"></class>
 			<class name="test.OrderPlacementTest"></class>
 		</classes>
-	</test>	
+	</test>
+
+	<test thread-count="3" name="FirefoxTest">
+		<parameter name="browser" value="Firefox"></parameter>
+		<parameter name="url" value="https://www.bestbuy.com"></parameter>
+		<classes>
+			<class name="test.BrokenURLValidationTest"></class>
+			<class name="test.CanadaCountrySelectionTest"></class>
+			<class name="test.USCountrySelectionTest"></class>
+			<class name="test.LoginTest"></class>
+			<!--class name="test.SignUpTest"></class-->
+			<class name="test.TitlesTest"></class>
+			<class name="test.BottomLinksTest"></class>
+			<class name="test.ShopByDepartmentTest"></class>
+			<class name="test.ShopByBrandTest"></class>
+			<class name="test.SearchAndAddItemToCartTest"></class>
+			<class name="test.OrderPlacementTest"></class>
+		</classes>
+	</test>
 </suite> 
 

@@ -46,14 +46,14 @@ public class TitlesTest extends ProjectSpecificationMethod{
 			for (int i = 0; i < expectedTitles.length; i++) {
 				
 				// Checking whether Survey alert is present is home page
-				//dismissAlert();
+				dismissAlert();
 
 				allTitles = driver.findElements(By.cssSelector(".bottom-left-links"));
-				//Thread.sleep(1000);
+				Thread.sleep(1000);
 				allTitles.get(i).click();
 				
 				// Checking whether Survey alert is present is home page
-				//dismissAlert();
+				dismissAlert();
 
 				// Validating title is correct
 				String title = driver.getTitle();

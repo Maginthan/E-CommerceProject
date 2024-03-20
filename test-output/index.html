@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BrokenURLValidationTest" class="method navigator-link" hash-for-method="TC_001_URLValidation(https://www.bestbuy.com)">TC_001_URLValidation(https://www.bestbuy.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.CanadaCountrySelectionTest" class="method navigator-link" hash-for-method="TC_002_CanadaSelectTest">TC_002_CanadaSelectTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.USCountrySelectionTest" class="method navigator-link" hash-for-method="TC_003_UnitedStatesSelectTest">TC_003_UnitedStatesSelectTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(Magtestuser15@gmail.com, Password@123, wrongUsername, Positive_Con_3)">TC_004_LoginTest(Magtestuser15@gmail.com, Password@123, wrongUsername, Positive_Con_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(magtestuser145@gmail.com, , emptyPassword, Negative_Con_2)">TC_004_LoginTest(magtestuser145@gmail.com, , emptyPassword, Negative_Con_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(, , bothEmpty, Negative_Con_3)">TC_004_LoginTest(, , bothEmpty, Negative_Con_3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(, Password@123, emptyMailID, Negative_Con_1)">TC_004_LoginTest(, Password@123, emptyMailID, Negative_Con_1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(magtestuser145@gmail.com, Password@123, bothCorrect, Positive_Con_1)">TC_004_LoginTest(magtestuser145@gmail.com, Password@123, bothCorrect, Positive_Con_1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(Magtestuser15@gmail.com, Password123, bothWrong, Positive_Con_4)">TC_004_LoginTest(Magtestuser15@gmail.com, Password123, bothWrong, Positive_Con_4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.LoginTest" class="method navigator-link" hash-for-method="TC_004_LoginTest(magtestuser145@gmail.com, Password123, wrongPassword, Positive_Con_2)">TC_004_LoginTest(magtestuser145@gmail.com, Password123, wrongPassword, Positive_Con_2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Swettter, user, Swettter0033@gmail.com, WeAreBes, WeAreBes, 8096544240, Positive_Con_4, passwordChec...)">TC_005_SignUpTest(Swettter, user, Swettter0033@gmail.com, WeAreBes, WeAreBes, 8096544240, Positive_Con_4, passwordChec...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Mosterer, user, Mosterer3156@gmail.com, W rt io, W rt io, 8096544240, Positive_Con_5, passwordCheck,...)">TC_005_SignUpTest(Mosterer, user, Mosterer3156@gmail.com, W rt io, W rt io, 8096544240, Positive_Con_5, passwordCheck,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Pensylasster, user, Pensylasster7878@gmail.com, We &amp;*( 12, We &amp;*( 12, 8096544240, Positive_Con_8, pa...)">TC_005_SignUpTest(Pensylasster, user, Pensylasster7878@gmail.com, We &*( 12, We &*( 12, 8096544240, Positive_Con_8, pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Posterer, user, Posterer1996@gmail.com, 1234567890098765432, 1234567890098765432, 8096544240, Positi...)">TC_005_SignUpTest(Posterer, user, Posterer1996@gmail.com, 1234567890098765432, 1234567890098765432, 8096544240, Positi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Forsterr, user, Forsterr2211@gmail.com, !!@@##$$%%^^&amp;&amp;**((), !!@@##$$%%^^&amp;&amp;**((), 8096544240, Positi...)">TC_005_SignUpTest(Forsterr, user, Forsterr2211@gmail.com, !!@@##$$%%^^&&**((), !!@@##$$%%^^&&**((), 8096544240, Positi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(, , , , , , Negative_Con_1, allEmpty, nil, public void test.SignUpTest.TC_005_SignUpTest(java.lang.S...)">TC_005_SignUpTest(, , , , , , Negative_Con_1, allEmpty, nil, public void test.SignUpTest.TC_005_SignUpTest(java.lang.S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Tamilarasa, pandiyan, Tamilarasapandiyan111@gmail.com, WeAreBest, WeAreBest, 8678003499, Positive_Co...)">TC_005_SignUpTest(Tamilarasa, pandiyan, Tamilarasapandiyan111@gmail.com, WeAreBest, WeAreBest, 8678003499, Positive_Co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Tamilselvi, pandiyan, Tamilselvipandiyan2220@gmail.com, WeAreBest, WeAreBest, 8096544239, Positive_C...)">TC_005_SignUpTest(Tamilselvi, pandiyan, Tamilselvipandiyan2220@gmail.com, WeAreBest, WeAreBest, 8096544239, Positive_C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Neweter, user, kocher155@gmail.com, WeAreBest, WeAreBest, 7809933452, Positive_Con_2, existingEmail,...)">TC_005_SignUpTest(Neweter, user, kocher155@gmail.com, WeAreBest, WeAreBest, 7809933452, Positive_Con_2, existingEmail,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Chidambaram, pillai, Chidambarampillai333@gmail.com, WeAreBest, WeAreBest, 0000000000, Negative_Con_...)">TC_005_SignUpTest(Chidambaram, pillai, Chidambarampillai333@gmail.com, WeAreBest, WeAreBest, 0000000000, Negative_Con_...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SignUpTest" class="method navigator-link" hash-for-method="TC_005_SignUpTest(Dexteer, lab, Dexteerbab1233@gmail.com, WeAreBest, WeAreBes, 8096544240, Negative_Con_2, wrongConfir...)">TC_005_SignUpTest(Dexteer, lab, Dexteerbab1233@gmail.com, WeAreBest, WeAreBes, 8096544240, Negative_Con_2, wrongConfir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TitlesTest" class="method navigator-link" hash-for-method="TC_006_TitlesTest">TC_006_TitlesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BottomLinksTest" class="method navigator-link" hash-for-method="TC_007_BottomLinksTest">TC_007_BottomLinksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ShopByDepartmentTest" class="method navigator-link" hash-for-method="TC_008_shopByDepartmentTest">TC_008_shopByDepartmentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.ShopByBrandTest" class="method navigator-link" hash-for-method="TC_009_shopByBrandTest">TC_009_shopByBrandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.SearchAndAddItemToCartTest" class="method navigator-link" hash-for-method="TC_010_SearchAndAddItemToCartTest">TC_010_SearchAndAddItemToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.OrderPlacementTest" class="method navigator-link" hash-for-method="TC_011_OrderPlacementTest">TC_011_OrderPlacementTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.CanadaCountrySelectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_CanadaSelectTest">
+                  </a> <!-- TC_002_CanadaSelectTest -->
+                  <span class="method-name">TC_002_CanadaSelectTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.OrderPlacementTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_011_OrderPlacementTest">
+                  </a> <!-- TC_011_OrderPlacementTest -->
+                  <span class="method-name">TC_011_OrderPlacementTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Swettter, user, Swettter0033@gmail.com, WeAreBes, WeAreBes, 8096544240, Positive_Con_4, passwordChec...)">
+                  </a> <!-- TC_005_SignUpTest(Swettter, user, Swettter0033@gmail.com, WeAreBes, WeAreBes, 8096544240, Positive_Con_4, passwordChec...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Swettter,user,Swettter0033@gmail.com,WeAreBes,WeAreBes,8096544240,Positive_Con_4,passwordCheck,Upper&Lower,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Mosterer, user, Mosterer3156@gmail.com, W rt io, W rt io, 8096544240, Positive_Con_5, passwordCheck,...)">
+                  </a> <!-- TC_005_SignUpTest(Mosterer, user, Mosterer3156@gmail.com, W rt io, W rt io, 8096544240, Positive_Con_5, passwordCheck,...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Mosterer,user,Mosterer3156@gmail.com,W rt io,W rt io,8096544240,Positive_Con_5,passwordCheck,spaces,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Pensylasster, user, Pensylasster7878@gmail.com, We &amp;*( 12, We &amp;*( 12, 8096544240, Positive_Con_8, pa...)">
+                  </a> <!-- TC_005_SignUpTest(Pensylasster, user, Pensylasster7878@gmail.com, We &*( 12, We &*( 12, 8096544240, Positive_Con_8, pa...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Pensylasster,user,Pensylasster7878@gmail.com,We &*( 12,We &*( 12,8096544240,Positive_Con_8,passwordCheck,Mix,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Posterer, user, Posterer1996@gmail.com, 1234567890098765432, 1234567890098765432, 8096544240, Positi...)">
+                  </a> <!-- TC_005_SignUpTest(Posterer, user, Posterer1996@gmail.com, 1234567890098765432, 1234567890098765432, 8096544240, Positi...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Posterer,user,Posterer1996@gmail.com,1234567890098765432,1234567890098765432,8096544240,Positive_Con_6,passwordCheck,numbers,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Forsterr, user, Forsterr2211@gmail.com, !!@@##$$%%^^&amp;&amp;**((), !!@@##$$%%^^&amp;&amp;**((), 8096544240, Positi...)">
+                  </a> <!-- TC_005_SignUpTest(Forsterr, user, Forsterr2211@gmail.com, !!@@##$$%%^^&&**((), !!@@##$$%%^^&&**((), 8096544240, Positi...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Forsterr,user,Forsterr2211@gmail.com,!!@@##$$%%^^&&**((),!!@@##$$%%^^&&**((),8096544240,Positive_Con_7,passwordCheck,characters,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(, , , , , , Negative_Con_1, allEmpty, nil, public void test.SignUpTest.TC_005_SignUpTest(java.lang.S...)">
+                  </a> <!-- TC_005_SignUpTest(, , , , , , Negative_Con_1, allEmpty, nil, public void test.SignUpTest.TC_005_SignUpTest(java.lang.S...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(,,,,,,Negative_Con_1,allEmpty,nil,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Tamilarasa, pandiyan, Tamilarasapandiyan111@gmail.com, WeAreBest, WeAreBest, 8678003499, Positive_Co...)">
+                  </a> <!-- TC_005_SignUpTest(Tamilarasa, pandiyan, Tamilarasapandiyan111@gmail.com, WeAreBest, WeAreBest, 8678003499, Positive_Co...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Tamilarasa,pandiyan,Tamilarasapandiyan111@gmail.com,WeAreBest,WeAreBest,8678003499,Positive_Con_1,allCorrect,nil,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Tamilselvi, pandiyan, Tamilselvipandiyan2220@gmail.com, WeAreBest, WeAreBest, 8096544239, Positive_C...)">
+                  </a> <!-- TC_005_SignUpTest(Tamilselvi, pandiyan, Tamilselvipandiyan2220@gmail.com, WeAreBest, WeAreBest, 8096544239, Positive_C...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Tamilselvi,pandiyan,Tamilselvipandiyan2220@gmail.com,WeAreBest,WeAreBest,8096544239,Positive_Con_3,existingPhoneNumber,nil,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Neweter, user, kocher155@gmail.com, WeAreBest, WeAreBest, 7809933452, Positive_Con_2, existingEmail,...)">
+                  </a> <!-- TC_005_SignUpTest(Neweter, user, kocher155@gmail.com, WeAreBest, WeAreBest, 7809933452, Positive_Con_2, existingEmail,...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Neweter,user,kocher155@gmail.com,WeAreBest,WeAreBest,7809933452,Positive_Con_2,existingEmail,nil,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Chidambaram, pillai, Chidambarampillai333@gmail.com, WeAreBest, WeAreBest, 0000000000, Negative_Con_...)">
+                  </a> <!-- TC_005_SignUpTest(Chidambaram, pillai, Chidambarampillai333@gmail.com, WeAreBest, WeAreBest, 0000000000, Negative_Con_...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Chidambaram,pillai,Chidambarampillai333@gmail.com,WeAreBest,WeAreBest,0000000000,Negative_Con_3,invalidPhoneNumber,nil,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_005_SignUpTest(Dexteer, lab, Dexteerbab1233@gmail.com, WeAreBest, WeAreBes, 8096544240, Negative_Con_2, wrongConfir...)">
+                  </a> <!-- TC_005_SignUpTest(Dexteer, lab, Dexteerbab1233@gmail.com, WeAreBest, WeAreBes, 8096544240, Negative_Con_2, wrongConfir...) -->
+                  <span class="method-name">TC_005_SignUpTest</span>
+                  <span class="parameters">(Dexteer,lab,Dexteerbab1233@gmail.com,WeAreBest,WeAreBes,8096544240,Negative_Con_2,wrongConfirmPassword,nil,public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.SearchAndAddItemToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_010_SearchAndAddItemToCartTest">
+                  </a> <!-- TC_010_SearchAndAddItemToCartTest -->
+                  <span class="method-name">TC_010_SearchAndAddItemToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ShopByBrandTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_009_shopByBrandTest">
+                  </a> <!-- TC_009_shopByBrandTest -->
+                  <span class="method-name">TC_009_shopByBrandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.BottomLinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_007_BottomLinksTest">
+                  </a> <!-- TC_007_BottomLinksTest -->
+                  <span class="method-name">TC_007_BottomLinksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(Magtestuser15@gmail.com, Password@123, wrongUsername, Positive_Con_3)">
+                  </a> <!-- TC_004_LoginTest(Magtestuser15@gmail.com, Password@123, wrongUsername, Positive_Con_3) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(Magtestuser15@gmail.com,Password@123,wrongUsername,Positive_Con_3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(magtestuser145@gmail.com, , emptyPassword, Negative_Con_2)">
+                  </a> <!-- TC_004_LoginTest(magtestuser145@gmail.com, , emptyPassword, Negative_Con_2) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(magtestuser145@gmail.com,,emptyPassword,Negative_Con_2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(, , bothEmpty, Negative_Con_3)">
+                  </a> <!-- TC_004_LoginTest(, , bothEmpty, Negative_Con_3) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(,,bothEmpty,Negative_Con_3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(, Password@123, emptyMailID, Negative_Con_1)">
+                  </a> <!-- TC_004_LoginTest(, Password@123, emptyMailID, Negative_Con_1) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(,Password@123,emptyMailID,Negative_Con_1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(magtestuser145@gmail.com, Password@123, bothCorrect, Positive_Con_1)">
+                  </a> <!-- TC_004_LoginTest(magtestuser145@gmail.com, Password@123, bothCorrect, Positive_Con_1) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(magtestuser145@gmail.com,Password@123,bothCorrect,Positive_Con_1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(Magtestuser15@gmail.com, Password123, bothWrong, Positive_Con_4)">
+                  </a> <!-- TC_004_LoginTest(Magtestuser15@gmail.com, Password123, bothWrong, Positive_Con_4) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(Magtestuser15@gmail.com,Password123,bothWrong,Positive_Con_4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginTest(magtestuser145@gmail.com, Password123, wrongPassword, Positive_Con_2)">
+                  </a> <!-- TC_004_LoginTest(magtestuser145@gmail.com, Password123, wrongPassword, Positive_Con_2) -->
+                  <span class="method-name">TC_004_LoginTest</span>
+                  <span class="parameters">(magtestuser145@gmail.com,Password123,wrongPassword,Positive_Con_2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TitlesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_006_TitlesTest">
+                  </a> <!-- TC_006_TitlesTest -->
+                  <span class="method-name">TC_006_TitlesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.BrokenURLValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_URLValidation(https://www.bestbuy.com)">
+                  </a> <!-- TC_001_URLValidation(https://www.bestbuy.com) -->
+                  <span class="method-name">TC_001_URLValidation</span>
+                  <span class="parameters">(https://www.bestbuy.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.USCountrySelectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_UnitedStatesSelectTest">
+                  </a> <!-- TC_003_UnitedStatesSelectTest -->
+                  <span class="method-name">TC_003_UnitedStatesSelectTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.ShopByDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_008_shopByDepartmentTest">
+                  </a> <!-- TC_008_shopByDepartmentTest -->
+                  <span class="method-name">TC_008_shopByDepartmentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/maginthangr/eclipse-workspace/E-CommerceProject/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.bestbuy.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.BrokenURLValidationTest&quot;/&gt;
+      &lt;class name=&quot;test.CanadaCountrySelectionTest&quot;/&gt;
+      &lt;class name=&quot;test.USCountrySelectionTest&quot;/&gt;
+      &lt;class name=&quot;test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;test.SignUpTest&quot;/&gt;
+      &lt;class name=&quot;test.TitlesTest&quot;/&gt;
+      &lt;class name=&quot;test.BottomLinksTest&quot;/&gt;
+      &lt;class name=&quot;test.ShopByDepartmentTest&quot;/&gt;
+      &lt;class name=&quot;test.ShopByBrandTest&quot;/&gt;
+      &lt;class name=&quot;test.SearchAndAddItemToCartTest&quot;/&gt;
+      &lt;class name=&quot;test.OrderPlacementTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_007_BottomLinksTest')
+data.setCell(0, 2, 'test.BottomLinksTest')
+data.setCell(0, 3, 57512);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_011_OrderPlacementTest')
+data.setCell(1, 2, 'test.OrderPlacementTest')
+data.setCell(1, 3, 51391);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_006_TitlesTest')
+data.setCell(2, 2, 'test.TitlesTest')
+data.setCell(2, 3, 43510);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_005_SignUpTest')
+data.setCell(3, 2, 'test.SignUpTest')
+data.setCell(3, 3, 42316);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_005_SignUpTest')
+data.setCell(4, 2, 'test.SignUpTest')
+data.setCell(4, 3, 41939);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_005_SignUpTest')
+data.setCell(5, 2, 'test.SignUpTest')
+data.setCell(5, 3, 41378);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_004_LoginTest')
+data.setCell(6, 2, 'test.LoginTest')
+data.setCell(6, 3, 40258);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_004_LoginTest')
+data.setCell(7, 2, 'test.LoginTest')
+data.setCell(7, 3, 40213);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_004_LoginTest')
+data.setCell(8, 2, 'test.LoginTest')
+data.setCell(8, 3, 39627);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_005_SignUpTest')
+data.setCell(9, 2, 'test.SignUpTest')
+data.setCell(9, 3, 29801);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_005_SignUpTest')
+data.setCell(10, 2, 'test.SignUpTest')
+data.setCell(10, 3, 28912);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_005_SignUpTest')
+data.setCell(11, 2, 'test.SignUpTest')
+data.setCell(11, 3, 28777);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_004_LoginTest')
+data.setCell(12, 2, 'test.LoginTest')
+data.setCell(12, 3, 28350);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_005_SignUpTest')
+data.setCell(13, 2, 'test.SignUpTest')
+data.setCell(13, 3, 27513);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_005_SignUpTest')
+data.setCell(14, 2, 'test.SignUpTest')
+data.setCell(14, 3, 26198);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_005_SignUpTest')
+data.setCell(15, 2, 'test.SignUpTest')
+data.setCell(15, 3, 25567);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_005_SignUpTest')
+data.setCell(16, 2, 'test.SignUpTest')
+data.setCell(16, 3, 25422);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_005_SignUpTest')
+data.setCell(17, 2, 'test.SignUpTest')
+data.setCell(17, 3, 25006);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_004_LoginTest')
+data.setCell(18, 2, 'test.LoginTest')
+data.setCell(18, 3, 24721);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_004_LoginTest')
+data.setCell(19, 2, 'test.LoginTest')
+data.setCell(19, 3, 24710);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC_004_LoginTest')
+data.setCell(20, 2, 'test.LoginTest')
+data.setCell(20, 3, 24559);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC_009_shopByBrandTest')
+data.setCell(21, 2, 'test.ShopByBrandTest')
+data.setCell(21, 3, 24538);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC_010_SearchAndAddItemToCartTest')
+data.setCell(22, 2, 'test.SearchAndAddItemToCartTest')
+data.setCell(22, 3, 23123);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC_008_shopByDepartmentTest')
+data.setCell(23, 2, 'test.ShopByDepartmentTest')
+data.setCell(23, 3, 22137);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC_001_URLValidation')
+data.setCell(24, 2, 'test.BrokenURLValidationTest')
+data.setCell(24, 3, 9237);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC_003_UnitedStatesSelectTest')
+data.setCell(25, 2, 'test.USCountrySelectionTest')
+data.setCell(25, 3, 5165);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC_002_CanadaSelectTest')
+data.setCell(26, 2, 'test.CanadaCountrySelectionTest')
+data.setCell(26, 3, 4927);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">20 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.CanadaCountrySelectionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.OrderPlacementTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.SignUpTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.ShopByBrandTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.SearchAndAddItemToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.BottomLinksTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.TitlesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.USCountrySelectionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.ShopByDepartmentTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateExtentReports</span>
+                <br/>
+                <span class="ignored-method-name">reportInitialisation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BrokenURLValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reportInitialisation</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BottomLinksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">374 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BrokenURLValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fileSetup</span>
+                <span class="method-start">375 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CanadaCountrySelectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">376 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fileSetup</span>
+                <span class="method-start">378 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.OrderPlacementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">379 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SearchAndAddItemToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">380 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ShopByBrandTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">381 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ShopByDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">382 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fileSetup</span>
+                <span class="method-start">384 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TitlesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">386 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.USCountrySelectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">extentTestSetup</span>
+                <span class="method-start">387 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BrokenURLValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">417 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_001_URLValidation(https://www.bestbuy.com)</span>
+                <span class="method-start">5365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">14604 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.CanadaCountrySelectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">14735 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">14737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_002_CanadaSelectTest</span>
+                <span class="method-start">18186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">23114 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.USCountrySelectionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">23397 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">23398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_003_UnitedStatesSelectTest</span>
+                <span class="method-start">26854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">32021 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">32262 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">33083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(magtestuser145@gmail.com, Password@123, bothCorrect, Positive_Con_1)</span>
+                <span class="method-start">36473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">64824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">64955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(magtestuser145@gmail.com, Password123, wrongPassword, Positive_Con_2)</span>
+                <span class="method-start">68486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">108745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">108875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(Magtestuser15@gmail.com, Password@123, wrongUsername, Positive_Con_3)</span>
+                <span class="method-start">112415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">152629 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">152763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(Magtestuser15@gmail.com, Password123, bothWrong, Positive_Con_4)</span>
+                <span class="method-start">156541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">196169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">196299 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(, Password@123, emptyMailID, Negative_Con_1)</span>
+                <span class="method-start">199936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">224647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">224834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(magtestuser145@gmail.com, , emptyPassword, Negative_Con_2)</span>
+                <span class="method-start">228458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">253180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">253322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginTest(, , bothEmpty, Negative_Con_3)</span>
+                <span class="method-start">256631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">281191 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">281422 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">281495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Tamilarasa, pandiyan, Tamilarasapandiyan111@gmail.com, WeAreBest, WeAreBest, 8678003499, Positive_Co...)</span>
+                <span class="method-start">284923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">326863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">326984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Neweter, user, kocher155@gmail.com, WeAreBest, WeAreBest, 7809933452, Positive_Con_2, existingEmail,...)</span>
+                <span class="method-start">330482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">357996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">358132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Tamilselvi, pandiyan, Tamilselvipandiyan2220@gmail.com, WeAreBest, WeAreBest, 8096544239, Positive_C...)</span>
+                <span class="method-start">361616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">402995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">403118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Swettter, user, Swettter0033@gmail.com, WeAreBes, WeAreBes, 8096544240, Positive_Con_4, passwordChec...)</span>
+                <span class="method-start">406770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">432968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">433135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Mosterer, user, Mosterer3156@gmail.com, W rt io, W rt io, 8096544240, Positive_Con_5, passwordCheck,...)</span>
+                <span class="method-start">436453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">465365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">465540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Posterer, user, Posterer1996@gmail.com, 1234567890098765432, 1234567890098765432, 8096544240, Positi...)</span>
+                <span class="method-start">469070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">494638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">494785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Forsterr, user, Forsterr2211@gmail.com, !!@@##$$%%^^&&**((), !!@@##$$%%^^&&**((), 8096544240, Positi...)</span>
+                <span class="method-start">498206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">523628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">523808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Pensylasster, user, Pensylasster7878@gmail.com, We &*( 12, We &*( 12, 8096544240, Positive_Con_8, pa...)</span>
+                <span class="method-start">527176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">555954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">556126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(, , , , , , Negative_Con_1, allEmpty, nil, public void test.SignUpTest.TC_005_SignUpTest(java.lang.S...)</span>
+                <span class="method-start">559304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">589105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">589283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Dexteer, lab, Dexteerbab1233@gmail.com, WeAreBest, WeAreBes, 8096544240, Negative_Con_2, wrongConfir...)</span>
+                <span class="method-start">592478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">617485 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">617719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_005_SignUpTest(Chidambaram, pillai, Chidambarampillai333@gmail.com, WeAreBest, WeAreBest, 0000000000, Negative_Con_...)</span>
+                <span class="method-start">621362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">663678 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TitlesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">663805 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">663806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_006_TitlesTest</span>
+                <span class="method-start">667249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">710759 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BottomLinksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">711041 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">711042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_007_BottomLinksTest</span>
+                <span class="method-start">714560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">772072 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ShopByDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">772416 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">772417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_008_shopByDepartmentTest</span>
+                <span class="method-start">775968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">798106 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.ShopByBrandTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">798290 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">798291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_009_shopByBrandTest</span>
+                <span class="method-start">801983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">826521 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.SearchAndAddItemToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">826691 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">826692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_010_SearchAndAddItemToCartTest</span>
+                <span class="method-start">830370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">853494 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.OrderPlacementTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentTest</span>
+                <span class="method-start">853638 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">browserLaunch(Chrome, https://www.bestbuy.com)</span>
+                <span class="method-start">853639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_011_OrderPlacementTest</span>
+                <span class="method-start">857299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">908691 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BrokenURLValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateExtentReports</span>
+                <span class="method-start">908974 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

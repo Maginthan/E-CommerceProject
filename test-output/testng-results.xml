@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T15:06:08 IST" name="Suite" finished-at="2024-03-20T15:21:17 IST" duration-ms="908448">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T15:06:08 IST" name="ChromeTest" finished-at="2024-03-20T15:21:17 IST" duration-ms="908448">
+      <class name="test.OrderPlacementTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.OrderPlacementTest@3e08ff24]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.OrderPlacementTest@3e08ff24]" started-at="2024-03-20T15:20:21 IST" name="createExtentTest" finished-at="2024-03-20T15:20:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.OrderPlacementTest@3e08ff24]" started-at="2024-03-20T15:20:21 IST" name="browserLaunch" finished-at="2024-03-20T15:20:25 IST" duration-ms="3660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_011_OrderPlacementTest()[pri:0, instance:test.OrderPlacementTest@3e08ff24]" started-at="2024-03-20T15:20:25 IST" name="TC_011_OrderPlacementTest" finished-at="2024-03-20T15:21:17 IST" duration-ms="51391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_011_OrderPlacementTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.OrderPlacementTest@3e08ff24]" started-at="2024-03-20T15:21:17 IST" name="browserClose" finished-at="2024-03-20T15:21:17 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.OrderPlacementTest -->
+      <class name="test.TitlesTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.TitlesTest@183ec003]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.TitlesTest@183ec003]" started-at="2024-03-20T15:17:12 IST" name="createExtentTest" finished-at="2024-03-20T15:17:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TitlesTest@183ec003]" started-at="2024-03-20T15:17:12 IST" name="browserLaunch" finished-at="2024-03-20T15:17:15 IST" duration-ms="3443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_006_TitlesTest()[pri:0, instance:test.TitlesTest@183ec003]" started-at="2024-03-20T15:17:15 IST" name="TC_006_TitlesTest" finished-at="2024-03-20T15:17:59 IST" duration-ms="43510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006_TitlesTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TitlesTest@183ec003]" started-at="2024-03-20T15:17:59 IST" name="browserClose" finished-at="2024-03-20T15:17:59 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.TitlesTest -->
+      <class name="test.USCountrySelectionTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.USCountrySelectionTest@31ea9581]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.USCountrySelectionTest@31ea9581]" started-at="2024-03-20T15:06:31 IST" name="createExtentTest" finished-at="2024-03-20T15:06:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.USCountrySelectionTest@31ea9581]" started-at="2024-03-20T15:06:31 IST" name="browserLaunch" finished-at="2024-03-20T15:06:35 IST" duration-ms="3456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_003_UnitedStatesSelectTest()[pri:0, instance:test.USCountrySelectionTest@31ea9581]" started-at="2024-03-20T15:06:35 IST" name="TC_003_UnitedStatesSelectTest" finished-at="2024-03-20T15:06:40 IST" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_UnitedStatesSelectTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.USCountrySelectionTest@31ea9581]" started-at="2024-03-20T15:06:40 IST" name="browserClose" finished-at="2024-03-20T15:06:40 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.USCountrySelectionTest -->
+      <class name="test.SignUpTest">
+        <test-method is-config="true" signature="fileSetup()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:06:08 IST" name="fileSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:10:49 IST" name="createExtentTest" finished-at="2024-03-20T15:10:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:10:49 IST" name="browserLaunch" finished-at="2024-03-20T15:10:53 IST" duration-ms="3428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:10:53 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:11:35 IST" duration-ms="41939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tamilarasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandiyan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tamilarasapandiyan111@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8678003499]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[allCorrect]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[nil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:11:35 IST" name="browserClose" finished-at="2024-03-20T15:11:35 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:11:35 IST" name="browserLaunch" finished-at="2024-03-20T15:11:38 IST" duration-ms="3497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:11:38 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:12:06 IST" duration-ms="27513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neweter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kocher155@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7809933452]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[existingEmail]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[nil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:12:06 IST" name="browserClose" finished-at="2024-03-20T15:12:06 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:12:06 IST" name="browserLaunch" finished-at="2024-03-20T15:12:09 IST" duration-ms="3484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:12:09 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:12:51 IST" duration-ms="41378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tamilselvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pandiyan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tamilselvipandiyan2220@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544239]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[existingPhoneNumber]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[nil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:12:51 IST" name="browserClose" finished-at="2024-03-20T15:12:51 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:12:51 IST" name="browserLaunch" finished-at="2024-03-20T15:12:55 IST" duration-ms="3652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:12:55 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:13:21 IST" duration-ms="26198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swettter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Swettter0033@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WeAreBes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WeAreBes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[passwordCheck]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Upper&Lower]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:13:21 IST" name="browserClose" finished-at="2024-03-20T15:13:21 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:13:21 IST" name="browserLaunch" finished-at="2024-03-20T15:13:24 IST" duration-ms="3318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:13:24 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:13:53 IST" duration-ms="28912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mosterer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mosterer3156@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[W rt io]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[W rt io]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[passwordCheck]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[spaces]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:13:53 IST" name="browserClose" finished-at="2024-03-20T15:13:53 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:13:53 IST" name="browserLaunch" finished-at="2024-03-20T15:13:57 IST" duration-ms="3530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:13:57 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:14:22 IST" duration-ms="25567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Posterer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Posterer1996@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890098765432]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1234567890098765432]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[passwordCheck]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[numbers]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:14:22 IST" name="browserClose" finished-at="2024-03-20T15:14:23 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:14:23 IST" name="browserLaunch" finished-at="2024-03-20T15:14:26 IST" duration-ms="3421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:14:26 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:14:51 IST" duration-ms="25422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Forsterr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Forsterr2211@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!!@@##$$%%^^&&**(()]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[!!@@##$$%%^^&&**(()]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_7]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[passwordCheck]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[characters]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:14:51 IST" name="browserClose" finished-at="2024-03-20T15:14:52 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:14:52 IST" name="browserLaunch" finished-at="2024-03-20T15:14:55 IST" duration-ms="3368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:14:55 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:15:24 IST" duration-ms="28777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pensylasster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pensylasster7878@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[We &*( 12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[We &*( 12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Positive_Con_8]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[passwordCheck]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Mix]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:15:24 IST" name="browserClose" finished-at="2024-03-20T15:15:24 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:15:24 IST" name="browserLaunch" finished-at="2024-03-20T15:15:27 IST" duration-ms="3177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:15:27 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:15:57 IST" duration-ms="29801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Negative_Con_1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[allEmpty]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[nil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:15:57 IST" name="browserClose" finished-at="2024-03-20T15:15:57 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:15:57 IST" name="browserLaunch" finished-at="2024-03-20T15:16:00 IST" duration-ms="3195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:16:00 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:16:25 IST" duration-ms="25006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dexteer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dexteerbab1233@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WeAreBes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8096544240]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Negative_Con_2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongConfirmPassword]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[nil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:16:25 IST" name="browserClose" finished-at="2024-03-20T15:16:26 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:16:26 IST" name="browserLaunch" finished-at="2024-03-20T15:16:29 IST" duration-ms="3643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:16:29 IST" name="TC_005_SignUpTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:17:11 IST" duration-ms="42316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chidambaram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pillai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chidambarampillai333@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WeAreBest]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0000000000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Negative_Con_3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[invalidPhoneNumber]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[nil]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[public void test.SignUpTest.TC_005_SignUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_SignUpTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SignUpTest@7c137fd5]" started-at="2024-03-20T15:17:11 IST" name="browserClose" finished-at="2024-03-20T15:17:12 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.SignUpTest -->
+      <class name="test.CanadaCountrySelectionTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.CanadaCountrySelectionTest@6440112d]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.CanadaCountrySelectionTest@6440112d]" started-at="2024-03-20T15:06:23 IST" name="createExtentTest" finished-at="2024-03-20T15:06:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.CanadaCountrySelectionTest@6440112d]" started-at="2024-03-20T15:06:23 IST" name="browserLaunch" finished-at="2024-03-20T15:06:26 IST" duration-ms="3449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_002_CanadaSelectTest()[pri:0, instance:test.CanadaCountrySelectionTest@6440112d]" started-at="2024-03-20T15:06:26 IST" name="TC_002_CanadaSelectTest" finished-at="2024-03-20T15:06:31 IST" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_CanadaSelectTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.CanadaCountrySelectionTest@6440112d]" started-at="2024-03-20T15:06:31 IST" name="browserClose" finished-at="2024-03-20T15:06:31 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.CanadaCountrySelectionTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="fileSetup()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:06:08 IST" name="fileSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:06:40 IST" name="createExtentTest" finished-at="2024-03-20T15:06:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:06:41 IST" name="browserLaunch" finished-at="2024-03-20T15:06:44 IST" duration-ms="3390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:06:44 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:07:13 IST" duration-ms="28350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magtestuser145@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bothCorrect]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Positive_Con_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:07:13 IST" name="browserClose" finished-at="2024-03-20T15:07:13 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:07:13 IST" name="browserLaunch" finished-at="2024-03-20T15:07:16 IST" duration-ms="3531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:07:16 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:07:57 IST" duration-ms="40258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magtestuser145@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Positive_Con_2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:07:57 IST" name="browserClose" finished-at="2024-03-20T15:07:57 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:07:57 IST" name="browserLaunch" finished-at="2024-03-20T15:08:00 IST" duration-ms="3540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:08:00 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:08:40 IST" duration-ms="40213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Magtestuser15@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Positive_Con_3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:08:40 IST" name="browserClose" finished-at="2024-03-20T15:08:41 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:08:41 IST" name="browserLaunch" finished-at="2024-03-20T15:08:44 IST" duration-ms="3778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:08:44 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:09:24 IST" duration-ms="39627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Magtestuser15@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bothWrong]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Positive_Con_4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:09:24 IST" name="browserClose" finished-at="2024-03-20T15:09:24 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:09:24 IST" name="browserLaunch" finished-at="2024-03-20T15:09:28 IST" duration-ms="3637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:09:28 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:09:52 IST" duration-ms="24710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emptyMailID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Negative_Con_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:09:52 IST" name="browserClose" finished-at="2024-03-20T15:09:53 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:09:53 IST" name="browserLaunch" finished-at="2024-03-20T15:09:56 IST" duration-ms="3624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:09:56 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:10:21 IST" duration-ms="24721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magtestuser145@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emptyPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Negative_Con_2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:10:21 IST" name="browserClose" finished-at="2024-03-20T15:10:21 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:10:21 IST" name="browserLaunch" finished-at="2024-03-20T15:10:24 IST" duration-ms="3309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_004_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:10:24 IST" name="TC_004_LoginTest" data-provider="ReadfromExcel" finished-at="2024-03-20T15:10:49 IST" duration-ms="24559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bothEmpty]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Negative_Con_3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.LoginTest@231f98ef]" started-at="2024-03-20T15:10:49 IST" name="browserClose" finished-at="2024-03-20T15:10:49 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.BrokenURLValidationTest">
+        <test-method is-config="true" signature="reportInitialisation()[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:06:08 IST" name="reportInitialisation" finished-at="2024-03-20T15:06:08 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialisation -->
+        <test-method is-config="true" signature="fileSetup()[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:06:08 IST" name="fileSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:06:08 IST" name="createExtentTest" finished-at="2024-03-20T15:06:08 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:06:08 IST" name="browserLaunch" finished-at="2024-03-20T15:06:13 IST" duration-ms="4909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_001_URLValidation(java.lang.String)[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:06:13 IST" name="TC_001_URLValidation" finished-at="2024-03-20T15:06:22 IST" duration-ms="9237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_URLValidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:06:22 IST" name="browserClose" finished-at="2024-03-20T15:06:23 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:test.BrokenURLValidationTest@7ce026d3]" started-at="2024-03-20T15:21:17 IST" name="generateExtentReports" finished-at="2024-03-20T15:21:17 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- test.BrokenURLValidationTest -->
+      <class name="test.SearchAndAddItemToCartTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.SearchAndAddItemToCartTest@2b40ff9c]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.SearchAndAddItemToCartTest@2b40ff9c]" started-at="2024-03-20T15:19:55 IST" name="createExtentTest" finished-at="2024-03-20T15:19:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.SearchAndAddItemToCartTest@2b40ff9c]" started-at="2024-03-20T15:19:55 IST" name="browserLaunch" finished-at="2024-03-20T15:19:58 IST" duration-ms="3678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_010_SearchAndAddItemToCartTest()[pri:0, instance:test.SearchAndAddItemToCartTest@2b40ff9c]" started-at="2024-03-20T15:19:58 IST" name="TC_010_SearchAndAddItemToCartTest" finished-at="2024-03-20T15:20:21 IST" duration-ms="23123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_010_SearchAndAddItemToCartTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.SearchAndAddItemToCartTest@2b40ff9c]" started-at="2024-03-20T15:20:21 IST" name="browserClose" finished-at="2024-03-20T15:20:21 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.SearchAndAddItemToCartTest -->
+      <class name="test.ShopByBrandTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.ShopByBrandTest@451001e5]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.ShopByBrandTest@451001e5]" started-at="2024-03-20T15:19:26 IST" name="createExtentTest" finished-at="2024-03-20T15:19:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.ShopByBrandTest@451001e5]" started-at="2024-03-20T15:19:26 IST" name="browserLaunch" finished-at="2024-03-20T15:19:30 IST" duration-ms="3691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_009_shopByBrandTest()[pri:0, instance:test.ShopByBrandTest@451001e5]" started-at="2024-03-20T15:19:30 IST" name="TC_009_shopByBrandTest" finished-at="2024-03-20T15:19:54 IST" duration-ms="24538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_009_shopByBrandTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.ShopByBrandTest@451001e5]" started-at="2024-03-20T15:19:54 IST" name="browserClose" finished-at="2024-03-20T15:19:55 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.ShopByBrandTest -->
+      <class name="test.ShopByDepartmentTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.ShopByDepartmentTest@221a3fa4]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.ShopByDepartmentTest@221a3fa4]" started-at="2024-03-20T15:19:00 IST" name="createExtentTest" finished-at="2024-03-20T15:19:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.ShopByDepartmentTest@221a3fa4]" started-at="2024-03-20T15:19:00 IST" name="browserLaunch" finished-at="2024-03-20T15:19:04 IST" duration-ms="3551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_008_shopByDepartmentTest()[pri:0, instance:test.ShopByDepartmentTest@221a3fa4]" started-at="2024-03-20T15:19:04 IST" name="TC_008_shopByDepartmentTest" finished-at="2024-03-20T15:19:26 IST" duration-ms="22137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_008_shopByDepartmentTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.ShopByDepartmentTest@221a3fa4]" started-at="2024-03-20T15:19:26 IST" name="browserClose" finished-at="2024-03-20T15:19:26 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.ShopByDepartmentTest -->
+      <class name="test.BottomLinksTest">
+        <test-method is-config="true" signature="extentTestSetup()[pri:0, instance:test.BottomLinksTest@7d9d0818]" started-at="2024-03-20T15:06:08 IST" name="extentTestSetup" finished-at="2024-03-20T15:06:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentTestSetup -->
+        <test-method is-config="true" signature="createExtentTest()[pri:0, instance:test.BottomLinksTest@7d9d0818]" started-at="2024-03-20T15:17:59 IST" name="createExtentTest" finished-at="2024-03-20T15:17:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.BottomLinksTest@7d9d0818]" started-at="2024-03-20T15:17:59 IST" name="browserLaunch" finished-at="2024-03-20T15:18:02 IST" duration-ms="3518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.bestbuy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="TC_007_BottomLinksTest()[pri:0, instance:test.BottomLinksTest@7d9d0818]" started-at="2024-03-20T15:18:02 IST" name="TC_007_BottomLinksTest" finished-at="2024-03-20T15:19:00 IST" duration-ms="57512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007_BottomLinksTest -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.BottomLinksTest@7d9d0818]" started-at="2024-03-20T15:19:00 IST" name="browserClose" finished-at="2024-03-20T15:19:00 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- test.BottomLinksTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

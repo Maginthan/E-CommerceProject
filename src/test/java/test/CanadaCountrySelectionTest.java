@@ -41,6 +41,10 @@ public class CanadaCountrySelectionTest extends ProjectSpecificationMethod{
 			String actualResult = driver.getTitle();
 			
 			if(actualResult.equals(expectedResult)) {
+				// Calling public method to take passed test case screenshot
+				filePath = passedTestsScreenshot(testName);
+				// Calling method the to capture screenshot from path
+				extentTest.addScreenCaptureFromPath(filePath, testName);
 				extentTest.pass("The Canada country selection was successful and test case passed");
 			}else {
 				// Calling public method to take screenshot

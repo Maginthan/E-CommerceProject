@@ -37,6 +37,10 @@ public class SearchAndAddItemToCartTest extends ProjectSpecificationMethod{
 					.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Added to cart']")));
 
 			if (successMessage.getText().equals("Added to cart")) {
+				// Calling public method to take passed test case screenshot
+				filePath = passedTestsScreenshot(testName);
+				// Calling method the to capture screenshot from path
+				extentTest.addScreenCaptureFromPath(filePath, testName);
 				extentTest.pass("The test case " + testName + " passed");
 			}else {
 				// Calling public method to take screenshot

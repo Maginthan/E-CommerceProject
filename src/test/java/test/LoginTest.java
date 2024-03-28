@@ -68,8 +68,8 @@ public class LoginTest extends ProjectSpecificationMethod {
 			
 		} else if (dataMatch.equals("wrongPassword") && scenario.equals("Positive_Con_2")) {
 			// Passing info the extent report for test case
-			extentTest.info("Verifying the LogIn condition with " + "_" + scenario);
-			
+			extentTest.info("Verifying the LogIn condition with " + "-" + scenario);
+		
 			try {
 				// Explicit wait for the error message to appear
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -100,7 +100,7 @@ public class LoginTest extends ProjectSpecificationMethod {
 
 		else if (dataMatch.equals("wrongUsername") && scenario.equals("Positive_Con_3")) {
 			// Passing info the extent report for test case
-			extentTest.info("Verifying the LogIn condition with " + "_" + scenario);
+			extentTest.info("Verifying the LogIn condition with " + "-" + scenario);
 
 			try {
 				// Explicit wait for the error message to appear
@@ -132,7 +132,7 @@ public class LoginTest extends ProjectSpecificationMethod {
 
 		else if (dataMatch.equals("bothWrong") && scenario.equals("Positive_Con_4")) {
 			// Passing info the extent report for test case
-			extentTest.info("Verifying the LogIn condition with " + "_" + scenario);
+			extentTest.info("Verifying the LogIn condition with " + "-" + scenario);
 
 			try {
 				// Explicit wait for the error message to appear
@@ -164,7 +164,7 @@ public class LoginTest extends ProjectSpecificationMethod {
 
 		else if (dataMatch.equals("emptyMailID") && scenario.equals("Negative_Con_1")) {
 			// Passing info the extent report for test case
-			extentTest.info("Verifying the LogIn condition with " + "_" + scenario);
+			extentTest.info("Verifying the LogIn condition with " + "-" + scenario);
 
 			try {
 				// Explicit wait for the error message to appear
@@ -197,7 +197,7 @@ public class LoginTest extends ProjectSpecificationMethod {
 
 		else if (dataMatch.equals("emptyPassword") && scenario.equals("Negative_Con_2")) {
 			// Passing info the extent report for test case
-			extentTest.info("Verifying the LogIn condition with " + "_" + scenario);
+			extentTest.info("Verifying the LogIn condition with " + "-" + scenario);
 			
 			try {
 				// Explicit wait for the error message to appear
@@ -229,7 +229,7 @@ public class LoginTest extends ProjectSpecificationMethod {
 
 		else {
 			// Passing info the extent report for test case
-			extentTest.info("Verifying the LogIn condition with " + "_" + scenario);
+			extentTest.info("Verifying the LogIn condition with " + "-" + scenario);
 
 			try {
 				// Explicit wait for the error message to appear

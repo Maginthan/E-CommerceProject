@@ -254,5 +254,18 @@ public class Utility {
 			FileUtils.copyFile(src, dest);
 			return path;
 		}
+		
+		//	Public method to take screenshot of passed test cases with time stamp
+		public String passedTestsScreenshot(String screenshotName) throws IOException {
+			Date d = new Date();
+			String date = d.toString();
+
+			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			String path = "/Users/maginthangr/eclipse-workspace/E-CommerceProject/PassedTestCaseScreenshots/" + screenshotName + "-" + date
+					+ ".png";
+			File dest = new File(path);
+			FileUtils.copyFile(src, dest);
+			return path;
+		}	
 
 }
